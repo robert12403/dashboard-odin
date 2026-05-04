@@ -8,12 +8,33 @@
     background-color: rgb(70, 164, 252);
     grid-row: 1/3;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sidebarEl {
+    font-size: 20px;
+    padding: 10px;
 }
 
 .header {
-    /* box-shadow: TBA */
+    position: relative;
+    box-shadow: 0 8px 6px -6px rgb(163, 163, 163);
+    display: grid;
+    grid-template: 1fr 1fr / auto auto;
+    justify-content: space-between;
 }
 
 .main-content {
-    background-color: rgb(204, 203, 203);
+    background-color: rgb(214, 214, 214);
+    display: grid;
+    grid-template: 0.3fr 1fr 1fr 1fr/1fr 1fr 1fr;
+    gap: 20px;
 }
+
+.card {
+    border: 1px solid black;
+}
+
+#trending {}
