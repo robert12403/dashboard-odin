@@ -1,1 +1,19 @@
-/* TBA */
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template: 1fr 5fr/1fr 6fr;
+}
+
+.sidebar {
+    background-color: rgb(70, 164, 252);
+    grid-row: 1/3;
+    color: white;
+}
+
+.header {
+    /* box-shadow: TBA */
+}
+
+.main-content {
+    background-color: rgb(204, 203, 203);
+}
