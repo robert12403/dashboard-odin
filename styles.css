@@ -52,12 +52,12 @@
     position: relative;
     box-shadow: 0 8px 6px -6px rgb(163, 163, 163);
     display: grid;
-    grid-template: 1fr 1fr / 2fr 1fr;
+    grid-template: 1fr 1fr / 3fr 1fr;
 }
 
 .headerEl {
     display: flex;
-    margin: 15px 50px;
+    margin: 0px 30px 14px 30px;
     align-items: center;
 }
 
@@ -84,6 +84,34 @@
     background-color: rgb(212, 212, 212);
     border: none;
     margin-left: 10px;
+}
+
+.headerEl img {
+    height: 50px;
+    border-radius: 50px;
+    margin: 0 30px;
+}
+
+#big {
+    height: 70px;
+    margin: 0px 15px;
+}
+
+.smaller {
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.bigger {
+    font-size: 20px;
+}
+
+.headerEl div {
+    font-weight: 700;
+}
+
+#john {
+    margin-left: 100px;
 }
 
 .main-content {
