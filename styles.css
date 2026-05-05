@@ -28,7 +28,6 @@
 
 .main-content {
     display: flex;
-    justify-content: space-between;
     background-color: rgb(212, 212, 212);
 }
 
@@ -40,13 +39,18 @@
 
 .contentRight {
     flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid;
+    grid-template-rows: 0.3fr 1.35fr 0.3fr 1.35fr;
 }
 
 .card {
     background-color: white;
     margin: 15px 15px;
     box-shadow: 8px 8px 6px rgba(172, 172, 172, 0.3);
+}
+
+.cardFlex {
+    background-color: white;
+    box-shadow: 8px 8px 6px rgba(172, 172, 172, 0.3);
+    margin: 15px 15px;
 }
