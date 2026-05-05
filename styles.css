@@ -169,7 +169,9 @@
 }
 
 .cardIcons {
-    margin-top: 50px;
-    margin-right: 20px;
+    display: flex;
+    width: 7.2em;
+    gap: 25px;
     align-self: flex-end;
+    margin-top: 30px;
 }
