@@ -69,6 +69,7 @@
     color: white;
     font-size: 15px;
     border: none;
+    font-weight: 700;
 }
 
 .main-content {
@@ -111,5 +112,6 @@
 
 .contentTitle {
     margin: 30px 25px 0px 25px;
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: 700;
 }
