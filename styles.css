@@ -15,9 +15,30 @@
 
 .sidebarEl {
     display: grid;
-    grid-template: 1fr/1fr 1fr;
+    gap: 10px;
+    grid-template: 1fr/1fr 6fr;
     font-size: 20px;
     margin: 20px;
+    align-items: center;
+}
+
+.sidebarElDash {
+    display: grid;
+    gap: 20px;
+    grid-template: 1fr/1fr 6fr;
+    font-size: 20px;
+    margin: 10px;
+    align-items: center;
+}
+
+.sidebarElDash svg {
+    height: 2em;
+    fill: white;
+}
+
+.sidebarEl svg {
+    height: 1em;
+    fill: white;
 }
 
 .header {
@@ -68,6 +89,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-left: 7px solid rgb(252, 174, 29);
 }
 
 .cardFlex {
