@@ -188,3 +188,26 @@
     margin: 15px 0 15px 30px;
     width: 50px;
 }
+
+#cardOne {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.firstElem {
+    margin: 15px;
+    color: gray;
+}
+
+.firstTitle {
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: black;
+}
+
+#borderrr {
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.384);
+}
