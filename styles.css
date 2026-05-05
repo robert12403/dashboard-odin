@@ -14,8 +14,10 @@
 }
 
 .sidebarEl {
+    display: grid;
+    grid-template: 1fr/1fr 1fr;
     font-size: 20px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .header {
